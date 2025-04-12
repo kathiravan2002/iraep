@@ -15,13 +15,13 @@ const Aimscope = () => {
                             <h1 className="text-xl  lg:text-2xl  mb-3 lg:mb-4 text-[#937D14]  poppins-bold">
                                 Aim and Scope
                             </h1>
-                            <img src={book} alt="image" className='min-w-[200px] max-w-[250px] mx-auto w-full h-auto mb-3 lg:hidden block border' />
+                            <img src={book} alt="image" className='min-w-[200px] max-w-[250px] mx-auto w-full h-auto mb-3 lg:hidden block border border-[#937D14]' />
                             <p className="  text-black mb-3 lg:mb-4   poppins-regular  ">
                                 The International Review of Applied Economics and Policy aims to promote high-quality research that bridges economic theory and practical policy applications. The journal focuses on a wide range of topics including development, trade, labor, fiscal policy, and public finance. It encourages interdisciplinary and empirical studies that address real-world economic challenges. By fostering academic and policy dialogue, the journal contributes to evidence-based policymaking and sustainable economic development.
                             </p>
                         </div>
-                        <div className='hidden lg:block shadow-lg border'>
-                            <img src={book} alt="image" className=' max-w-[150px] max-w-auto  ' />
+                        <div className='hidden lg:block shadow-md'>
+                            <img src={book} alt="image" className=' max-w-[150px] max-w-auto border border-[#937D14] ' />
                         </div>
                     </div>
                 </section>

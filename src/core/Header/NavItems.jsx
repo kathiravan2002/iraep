@@ -177,7 +177,7 @@ const NavItems = ({ ToggleMenu, MenuOpen, isActive, }) => {
           </ul>
         </div>
         <div className="text-center px-4 lg:px-0 mt-9">
-          <Link to="" target="_blank" rel="noopener noreferrer">
+          <Link to="https://iraep.com/iraep/index.php/iraep/about/submissions" target="_blank" rel="noopener noreferrer">
             <button className="bg-[#937D14] text-white px-4 py-2 rounded-lg transition duration-300 poppins-bold" >
 
               <div className="flex justify-between gap-2 ">Submit Paper <ImUpload2 aUpload className="mt-1" /></div>

@@ -15,13 +15,13 @@ function Articalprocessing() {
                             <h1 className="text-xl  lg:text-2xl  mb-3 lg:mb-4 text-[#937D14]  poppins-bold">
                                 Article Processing
                             </h1>
-                            <img src={book} alt="image" className='min-w-[200px] max-w-[250px] mx-auto w-full h-auto mb-3 lg:hidden block border' />
+                            <img src={book} alt="image" className='min-w-[200px] max-w-[250px] mx-auto w-full h-auto mb-3 lg:hidden block border border-[#937D14]' />
                             <p className="  text-black mb-3 lg:mb-4   poppins-regular  ">
                                 The International Review of Applied Economics and Policy follows a transparent and efficient article processing workflow. Upon submission, manuscripts undergo an initial screening for relevance and quality before being sent for peer review. Once accepted, articles are processed for publication, including copyediting, typesetting, and final approval. Authors are kept informed throughout the process, and the journal strives to ensure a swift, smooth, and rigorous publication experience. The goal is to ensure that all articles meet the journal’s high standards for academic quality and integrity.
                             </p>
                         </div>
-                        <div className='hidden lg:block shadow-lg border'>
-                            <img src={book} alt="image" className=' max-w-[150px] max-w-auto  ' />
+                        <div className='hidden lg:block shadow-md'>
+                            <img src={book} alt="image" className=' max-w-[150px] max-w-auto  border border-[#937D14]' />
                         </div>
                     </div>
                 </section>

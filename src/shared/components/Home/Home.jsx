@@ -74,7 +74,7 @@ const Home = () => {
               <h1 className="text-xl  lg:text-2xl  mb-3 lg:mb-4 text-[#937D14]  poppins-bold">
                 Welcome to IRAEP
               </h1>
-              <img src={book} alt="image" className='min-w-[200px] max-w-[250px] mx-auto w-full h-auto mb-3 lg:hidden block border' />
+              <img src={book} alt="image" className='min-w-[200px] max-w-[250px] mx-auto w-full h-auto mb-3 lg:hidden block border border-[#937D14]' />
               <p className="  text-black mb-3 lg:mb-4   poppins-regular  ">
                 <span className=" poppins-semibold ">
                   The International Review of Applied Economics and Policy
@@ -82,8 +82,8 @@ const Home = () => {
                 is a peer-reviewed journal dedicated to the exploration and analysis of contemporary economic issues and policy applications across the globe. The journal aims to bridge the gap between economic theory and real-world policy implementation, encouraging submissions that offer empirical insights and practical solutions. It welcomes interdisciplinary research spanning development economics, public policy, trade, labor, and fiscal analysis. With a global perspective, the journal serves as a platform for academics, policymakers, and practitioners to engage in meaningful economic discourse.
               </p>
             </div>
-            <div className='hidden lg:block shadow-lg border'>
-              <img src={book} alt="image" className=' max-w-[150px] max-w-auto  ' />
+            <div className='hidden lg:block shadow-md '>
+              <img src={book} alt="image" className=' max-w-[150px] max-w-auto  border border-[#937D14]' />
             </div>
           </div>
         </section>

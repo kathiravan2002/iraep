@@ -19,13 +19,13 @@ function Correction() {
                             <h1 className="text-xl  lg:text-2xl  mb-3 lg:mb-4 text-[#937D14]  poppins-bold">
                                 Journal Correction Policy
                             </h1>
-                            <img src={book} alt="image" className='min-w-[200px] max-w-[250px] mx-auto w-full h-auto mb-3 lg:hidden block border' />
+                            <img src={book} alt="image" className='min-w-[200px] max-w-[250px] mx-auto w-full h-auto mb-3 lg:hidden block border border-[#937D14]' />
                             <p className="  text-black mb-3 lg:mb-4   poppins-regular  ">
                             The International Review of Applied Economics and Policy is committed to ensuring the accuracy and reliability of its published content. In the event that significant errors, omissions, or inaccuracies are identified in a published article, we will issue corrections, errata, or retractions as needed. The journal follows established ethical guidelines for handling corrections and ensures transparency throughout the process. Authors, reviewers, and editors are encouraged to report any discrepancies to uphold the integrity of the journal.
                             </p>
                         </div>
-                        <div className='hidden lg:block shadow-lg border'>
-                            <img src={book} alt="image" className=' max-w-[150px] max-w-auto  ' />
+                        <div className='hidden lg:block shadow-md'>
+                            <img src={book} alt="image" className=' max-w-[150px] max-w-auto  border border-[#937D14]' />
                         </div>
                     </div>
                 </section>

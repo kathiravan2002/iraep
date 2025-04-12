@@ -14,13 +14,13 @@ function Peerreview() {
               <h1 className="text-xl  lg:text-2xl  mb-3 lg:mb-4 text-[#937D14]  poppins-bold">
                 Peer review Process
               </h1>
-              <img src={book} alt="image" className='min-w-[200px] max-w-[250px] mx-auto w-full h-auto mb-3 lg:hidden block border' />
+              <img src={book} alt="image" className='min-w-[200px] max-w-[250px] mx-auto w-full h-auto mb-3 lg:hidden block border border-[#937D14]' />
               <p className="  text-black mb-3 lg:mb-4   poppins-regular  ">
                 The International Review of Applied Economics and Policy follows a rigorous double-blind peer review process to ensure the integrity and quality of published research. Each submission is evaluated by independent experts based on originality, relevance, methodology, and contribution to the field. Reviewers and authors remain anonymous to maintain objectivity throughout the evaluation process. The editorial team ensures a fair, timely, and transparent review experience for all contributors.
               </p>
             </div>
-            <div className='hidden lg:block shadow-lg border'>
-              <img src={book} alt="image" className=' max-w-[150px] max-w-auto  ' />
+            <div className='hidden lg:block shadow-md'>
+              <img src={book} alt="image" className=' max-w-[150px] max-w-auto  border border-[#937D14]' />
             </div>
           </div>
         </section>

@@ -2,6 +2,7 @@ import React from 'react';
 import point from '/assets/fingers.png'
 import book from '/assets/books.jpg'
 import icon from '/assets/rigt.png'
+import star from '/assets/star.png'
 
 function Authorguidelines() {
   return (
@@ -113,24 +114,24 @@ function Authorguidelines() {
 
           <div className='border-b-2 border-[#937D14] mb-4 space-y-3'>
             <h2 className='poppins-bold text-xl  text-[#937D14] text-center'>Research Article</h2>
-            <div className='flex gap-3   lg:px-5 px-0'><img src={icon} alt='icon' className='w-[22px] h-[20px]' /><p className='poppins-regular '>Research articles submitted to the International Review of Applied Economics and Policy should present original, data-driven studies that offer new insights into applied economics and policy issues.</p></div>
-            <div className='flex gap-3   lg:px-5 px-0'><img src={icon} alt='icon' className='w-[22px] h-[20px]' /><p className='poppins-regular '>Authors must clearly define their research question, use rigorous methodology, and provide evidence-based conclusions. </p></div>
-            <div className='flex gap-3   lg:px-5 px-0 mb-4'><img src={icon} alt='icon' className='w-[22px] h-[20px]' /><p className='poppins-regular '>Articles should contribute meaningfully to the field by addressing pressing economic or policy challenges, with the potential to inform both academic discourse and practical applications.</p></div>
+            <div className='flex gap-2   lg:px-5 px-0'><img src={star} alt='icon' className='w-[22px] h-[20px]' /><p className='poppins-regular '>Research articles submitted to the International Review of Applied Economics and Policy should present original, data-driven studies that offer new insights into applied economics and policy issues.</p></div>
+            <div className='flex gap-2   lg:px-5 px-0'><img src={star} alt='icon' className='w-[22px] h-[20px]' /><p className='poppins-regular '>Authors must clearly define their research question, use rigorous methodology, and provide evidence-based conclusions. </p></div>
+            <div className='flex gap-2   lg:px-5 px-0 mb-4'><img src={star} alt='icon' className='w-[22px] h-[20px]' /><p className='poppins-regular '>Articles should contribute meaningfully to the field by addressing pressing economic or policy challenges, with the potential to inform both academic discourse and practical applications.</p></div>
 
           </div>
 
           <div className='border-b-2 border-[#937D14] mb-4 space-y-3'>
             <h2 className='poppins-bold text-xl  text-[#937D14] text-center'>In-depth Review Article</h2>
-            <div className='flex gap-3  lg:px-5 px-0'><img src={icon} alt='icon' className='w-[22px] h-[20px]' /><p className='poppins-regular '>In-depth review articles in the International Review of Applied Economics and Policy offer comprehensive examinations of existing literature on a specific topic within applied economics and policy. </p></div>
-            <div className='flex gap-3  lg:px-5 px-0'><img src={icon} alt='icon' className='w-[22px] h-[20px]' /><p className='poppins-regular '>These articles synthesize findings from multiple studies, identify trends, gaps, and emerging issues, and provide critical analysis to guide future research.</p></div>
-            <div className='flex gap-3  lg:px-5 px-0 mb-4'><img src={icon} alt='icon' className='w-[22px] h-[20px]' /><p className='poppins-regular '> Authors are expected to contribute valuable insights that advance the understanding of complex economic and policy challenges.</p></div>
+            <div className='flex gap-2  lg:px-5 px-0'><img src={star} alt='icon' className='w-[22px] h-[20px]' /><p className='poppins-regular '>In-depth review articles in the International Review of Applied Economics and Policy offer comprehensive examinations of existing literature on a specific topic within applied economics and policy. </p></div>
+            <div className='flex gap-2  lg:px-5 px-0'><img src={star} alt='icon' className='w-[22px] h-[20px]' /><p className='poppins-regular '>These articles synthesize findings from multiple studies, identify trends, gaps, and emerging issues, and provide critical analysis to guide future research.</p></div>
+            <div className='flex gap-2  lg:px-5 px-0 mb-4'><img src={star} alt='icon' className='w-[22px] h-[20px]' /><p className='poppins-regular '> Authors are expected to contribute valuable insights that advance the understanding of complex economic and policy challenges.</p></div>
 
           </div>
           <div className=' space-y-3'>
             <h2 className='poppins-bold text-xl  text-[#937D14] text-center'>Technical Article</h2>
-            <div className='flex gap-3   lg:px-5 px-0'><img src={icon} alt='icon' className='w-[22px] h-[20px]' /><p className='poppins-regular '>Technical articles in the International Review of Applied Economics and Policy focus on the application of advanced methodologies, models, or tools to address specific economic or policy problems. </p></div>
-            <div className='flex gap-3   lg:px-5 px-0'><img src={icon} alt='icon' className='w-[22px] h-[20px]' /><p className='poppins-regular '> These articles should provide a clear explanation of the technical approach, detailed analysis, and practical implications of the findings. </p></div>
-            <div className='flex gap-3   lg:px-5 px-0 '><img src={icon} alt='icon' className='w-[22px] h-[20px]' /><p className='poppins-regular '>Authors are expected to contribute novel solutions or enhancements to existing methods, contributing to the advancement of the field.</p></div>
+            <div className='flex gap-2   lg:px-5 px-0'><img src={star} alt='icon' className='w-[22px] h-[20px]' /><p className='poppins-regular '>Technical articles in the International Review of Applied Economics and Policy focus on the application of advanced methodologies, models, or tools to address specific economic or policy problems. </p></div>
+            <div className='flex gap-2   lg:px-5 px-0'><img src={star} alt='icon' className='w-[22px] h-[20px]' /><p className='poppins-regular '> These articles should provide a clear explanation of the technical approach, detailed analysis, and practical implications of the findings. </p></div>
+            <div className='flex gap-2   lg:px-5 px-0 '><img src={star} alt='icon' className='w-[22px] h-[20px]' /><p className='poppins-regular '>Authors are expected to contribute novel solutions or enhancements to existing methods, contributing to the advancement of the field.</p></div>
 
           </div>
         </div>

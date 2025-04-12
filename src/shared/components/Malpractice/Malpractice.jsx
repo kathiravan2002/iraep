@@ -19,13 +19,13 @@ function Malpractice() {
                             <h1 className="text-xl  lg:text-2xl  mb-3 lg:mb-4 text-[#937D14]  poppins-bold">
                                 Malpractice Policy
                             </h1>
-                            <img src={book} alt="image" className='min-w-[200px] max-w-[250px] mx-auto w-full h-auto mb-3 lg:hidden block border' />
+                            <img src={book} alt="image" className='min-w-[200px] max-w-[250px] mx-auto w-full h-auto mb-3 lg:hidden block border border-[#937D14]' />
                             <p className="  text-black mb-3 lg:mb-4   poppins-regular  ">
                                 The International Review of Applied Economics and Policy adheres to strict ethical standards to maintain the integrity of its publication process. We are committed to preventing publication malpractice, including plagiarism, data falsification, and unethical research practices. Authors, reviewers, and editors are expected to uphold the highest ethical standards, ensuring transparency, fairness, and accountability throughout the publication process. Any instances of unethical behavior are thoroughly investigated and addressed in accordance with established academic guidelines.
                             </p>
                         </div>
-                        <div className='hidden lg:block shadow-lg border'>
-                            <img src={book} alt="image" className=' max-w-[150px] max-w-auto  ' />
+                        <div className='hidden lg:block shadow-md'>
+                            <img src={book} alt="image" className=' max-w-[150px] max-w-auto border border-[#937D14] ' />
                         </div>
                     </div>
                 </section>

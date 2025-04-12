@@ -2,7 +2,7 @@ import React, { useState, useEffect, useRef } from "react";
 import { Link, useLocation} from "react-router-dom";
 import NavItems from "./NavItems";
 import { GiHamburgerMenu } from "react-icons/gi";
-import Logo from '/assets/logo.png'
+import Logo from '/assets/IRAEP.png'
 import { IoIosArrowDropdown } from "react-icons/io";
 import { ImUpload2 } from "react-icons/im";
 
@@ -87,19 +87,19 @@ const Header = () => {
               <div className=" flex justify-center items-center h-full text-white  z-10 w-[150px] " >
                 {/* <div className=" " ></div> */}
                 <div
-                  className="bg-white p-4 lg:min-w-[300px] min-w-[250px] "
+                  className="bg-white p-4 lg:min-w-[350px] min-w-[250px] "
                   style={{
                     clipPath: 'polygon(0 0, 74% 0, 100% 100%, 0 100%, 0% 50%)',
                   }}
                 >  <Link to={'/'}>
-                    <div>
-                      {/* <img
+                    <div className="flex justify-center">
+                      <img
                         src={Logo}
                         loading='lazy'
                         alt="Website Logo"
-                        className=" lg:min-w-40 lg:w-40 min-w-28 w-28 select-none lg:ml-16"
-                      /> */}
-                      <h2 className="namdhinggo-bold text-[#937D14] text-center text-3xl">IRAEP</h2>
+                        className=" lg:min-w-40 lg:w-40 w-35  select-none  lg:ml-6"
+                      />
+                     
                     </div>
 
                   </Link></div>
@@ -192,7 +192,7 @@ const Header = () => {
               </ul>
             </div>
             <div className="flex justify-center items-center ">
-              <Link to="" target="_blank" rel="noopener noreferrer">
+              <Link to="https://iraep.com/iraep/index.php/iraep/about/submissions" target="_blank" rel="noopener noreferrer">
                 <button className="hover:text-white poppins-regular hover:bg-[#937D14] lg:p-1 lg:px-4   py-1 px-2 cursor-pointer text-[#584A05] border-2 border-[#584A05] hover:border-2 hover:border-[#937D14]  transition-duration duration-300">
                   <div className="flex justify-between  text-nowrap gap-2 "> Submit Paper <ImUpload2  className="mt-1" /></div>
                 </button>

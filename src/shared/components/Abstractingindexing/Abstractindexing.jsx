@@ -15,13 +15,13 @@ function Abstractindexing() {
                             <h1 className="text-xl  lg:text-2xl  mb-3 lg:mb-4 text-[#937D14]  poppins-bold">
                                 Abstracting and Indexing
                             </h1>
-                            <img src={book} alt="image" className='min-w-[200px] max-w-[250px] mx-auto w-full h-auto mb-3 lg:hidden block border' />
+                            <img src={book} alt="image" className='min-w-[200px] max-w-[250px] mx-auto w-full h-auto mb-3 lg:hidden block border border-[#937D14]' />
                             <p className="  text-black mb-3 lg:mb-4   poppins-regular  ">
                                 The International Review of Applied Economics and Policy is committed to ensuring the wide visibility and accessibility of its published research. The journal is indexed in prominent academic databases and abstracting services, facilitating the discovery and citation of its articles. By being listed in these platforms, we aim to provide global reach and enhance the impact of high-quality research in applied economics and policy. Authors benefit from increased exposure and recognition in the academic community.
                             </p>
                         </div>
-                        <div className='hidden lg:block shadow-lg border'>
-                            <img src={book} alt="image" className=' max-w-[150px] max-w-auto  ' />
+                        <div className='hidden lg:block shadow-md'>
+                            <img src={book} alt="image" className=' max-w-[150px] max-w-auto  border border-[#937D14]' />
                         </div>
                     </div>
                 </section>

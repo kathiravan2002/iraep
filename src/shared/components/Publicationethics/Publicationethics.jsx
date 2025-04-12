@@ -15,13 +15,13 @@ function Publicationethics() {
                             <h1 className="text-xl  lg:text-2xl  mb-3 lg:mb-4 text-[#937D14]  poppins-bold">
                             Publications Ethics
                             </h1>
-                            <img src={book} alt="image" className='min-w-[200px] max-w-[250px] mx-auto w-full h-auto mb-3 lg:hidden block border' />
+                            <img src={book} alt="image" className='min-w-[200px] max-w-[250px] mx-auto w-full h-auto mb-3 lg:hidden block border border-[#937D14]' />
                             <p className="  text-black mb-3 lg:mb-4   poppins-regular  ">
                             The International Review of Applied Economics and Policy is committed to upholding the highest standards of ethical publishing. Authors must ensure that their work is original, properly cited, and free from plagiarism or data fabrication. All parties involved—authors, editors, and reviewers—are expected to act with integrity, transparency, and accountability. The journal adheres to ethical guidelines for conflict of interest disclosure, authorship, and responsible research conduct, ensuring fairness and trust in the publication process.
                             </p>
                         </div>
-                        <div className='hidden lg:block shadow-lg border'>
-                            <img src={book} alt="image" className=' max-w-[150px] max-w-auto  ' />
+                        <div className='hidden lg:block shadow-md'>
+                            <img src={book} alt="image" className=' max-w-[150px] max-w-auto  border border-[#937D14]' />
                         </div>
                     </div>
                 </section>
