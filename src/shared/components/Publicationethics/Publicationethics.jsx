@@ -89,7 +89,7 @@ function Publicationethics() {
                 <div >
 
                     <div className='border-b-2 border-[#937D14] mb-4 space-y-3'>
-                        <h2 className='poppins-bold text-xl  text-[#937D14] text-center'>Open Acess Policy</h2>
+                        <h2 className='poppins-bold text-xl  text-[#937D14] text-center'>Open Access Policy</h2>
                         <div className='flex gap-2 lg:px-5 px-0'><img src={star} alt='icon' className='w-[22px] h-[20px]' /><p className='poppins-regular '>The International Review of Applied Economics and Policy follows an open access model, ensuring that all published articles are freely available to readers worldwide without subscription or access fees. </p></div>
                         <div className='flex gap-2 lg:px-5 px-0'><img src={star} alt='icon' className='w-[22px] h-[20px]' /><p className='poppins-regular '>This policy promotes the wide dissemination of knowledge and encourages greater visibility and citation of authors' work. </p></div>
                         <div className='flex gap-2 lg:px-5 px-0'><img src={star} alt='icon' className='w-[22px] h-[20px]' /><p className='poppins-regular '>Authors retain copyright under a Creative Commons license, allowing for broad sharing and reuse with proper attribution.</p></div>
